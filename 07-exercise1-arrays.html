@@ -1,0 +1,11 @@
+<script>
+    let totalprice = 0
+    const shopprice = [3, 5, 8, 10, 16]
+    shopprice.forEach((value, index, array) => {
+        totalprice += value
+    })
+
+    let totalpricetax = totalprice *1.21
+    console.log(`The total price without tax is ${totalprice}, with taxes it is ${totalpricetax}`)
+
+</script>
